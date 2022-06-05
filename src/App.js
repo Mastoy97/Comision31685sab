@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import Counter from './components/Counter/Counter';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           Learn React
         </a>
   </header>
+  <Counter initial={10} />
     </div>
   );
 }
